@@ -18,6 +18,8 @@ This dataset contains images of individual hand-written [Bengali characters](htt
 
 <p align="justify">Bengali characters (graphemes) are written by combining three components: a grapheme_root,vowel_diacritic,and consonant_diacritic</p>
 
+Download dataset [here](https://www.kaggle.com/c/bengaliai-cv19/data)
+
 # Flask app
 - Download model file Bengal_classifier.h5 [here](https://drive.google.com/drive/folders/1ajzVj7lKko367_NOiB9cXwIt5yxnzFi7?usp=sharing)
 - Copy Bengal_classifier.h5 into folder models
