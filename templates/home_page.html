@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block content %}
+<!-- Your code here -->
+
+<div class="container">
+    <br><br><br><br><br><br>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" style="color: red;" href="https://github.com/Gia-Long-1994/bengal-recognition">Find us on Github</a>
+        </nav>
+    </div>
+    <br><br>
+    <img class="mb-4" src="static/images/coderschool-logo.png" alt="">
+    <br><br>
+    <h1 class="text-center">Bengal Handwriting Recognition</h1>
+    
+    <h3 class="text-center">by Dinh - Bao - Dicky</h3>
+    <div class="row">
+        <div class="col-md-6">
+            <div id="my-camera"></div>
+            <br>
+            <form id="form-capture-image">
+                <a href="#" class="btn btn-lg btn-primary btn-capture-image">Predict Now</a>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <div id="results">
+                <div id="loading" class="hidden spinner-border text-warning" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+                <h2 class="class-result-1">Grapheme root :</h2>
+                
+                <br><br><br>
+                <h2 class="class-result-2">Vowel diacritic :</h2>
+                
+                <br><br><br>
+                <h2 class="class-result-3">Consonant diacritic :</h2>
+                
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
