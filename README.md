@@ -20,6 +20,13 @@ This dataset contains images of individual hand-written [Bengali characters](htt
 
 Download dataset [here](https://www.kaggle.com/c/bengaliai-cv19/data)
 
+# Modeling
+CNN with 3 outputs : head_root,head_vowel,head_consonant
+- Training epochs : 30
+- Training Accuracy on head_root : 90% , on head_vowel : 97% and on head_consonant : 97%
+- Accuracy on test set : 94%
+- Ranking : 1400/1700
+
 # Flask app
 - Download model file Bengal_classifier.h5 [here](https://drive.google.com/drive/folders/1ajzVj7lKko367_NOiB9cXwIt5yxnzFi7?usp=sharing)
 - Copy Bengal_classifier.h5 into folder models
